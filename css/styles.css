@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #1f1f38;
+    background-image: url(../assets/bg-texture.png);
+    line-height: 1.7;
+}
+
+
+/* ===================== General Styles ===================== */
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+section{
+    margin-top: 7rem;
+}
+
+section > h3, section > h6{
+    text-align: center;
+    color: rgba(255 , 255 ,255 , 0.6); 
+} 
+
+section > h3{
+    color: #4db5ff;
+    margin-bottom: 3rem;
+}
+
+.text-light{
+   color: rgba(255 , 255 ,255 , 0.6)
+}
+
+a {
+    color: #4db5ff;
+    transition: all 400ms ease;
+}
+
+a:hover {
+    color: white;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: #4db5ff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #4db5ff;
+    transition: all 400ms ease;
+}
+
+.btn:hover {
+    color: #1f1f38;
+    background-color: white;
+    border-color: transparent;
+}
+
+.btn-primary {
+    color: #1f1f38;
+    background-color: #4db5ff;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* ========== Media Quries ========== */
+
+@media screen and (max-width : 1024px){
+    .container{
+        width: 86%;
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width : 600px){
+    .container{
+        width: 90%;
+    }
+
+    section > h2 {
+        margin-top: 2rem;
+    }
+}
