@@ -10,7 +10,6 @@ header {
     position: relative;
 }
 
-/* ========= CTA =========*/
 
 .header_btns{
     margin-top: 1.8rem;
@@ -66,6 +65,9 @@ header {
     font-weight: 300;
 }
 
+
+
+
 /* ========== Media Quries ========== */
 
 @media screen and (max-width : 1024px){
@@ -74,8 +76,6 @@ header {
     }
     
 }
-
-
 
 @media screen and (max-width : 600px){
     .header {
